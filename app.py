@@ -58,7 +58,7 @@ if st.button("Predict MSRP"):
 
     try:
         # Load original dataset used during training
-        train_df = pd.read_csv("car_MSRP.csv")
+        train_df = pd.read_csv("car_MSRP")
 
         target_col = "MSRP (Manufacturer's suggested retail Price)"
 
